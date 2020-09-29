@@ -8,32 +8,31 @@ package kata.consecutive.strings;
  *
  * n being the length of the string array, if n = 0 or k > n or k <= 0 return "".
  * Note
- *
  * consecutive strings : follow one after another without an interruption
  */
 
 public class LongestConsec {
-    public static void main(String[] args) {
-        longestConsec(new String[] {"ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"}, 1);
-    }
     public static String longestConsec(String[] strarr, int k) {
-        if(strarr.length==0 || k>strarr.length) {System.out.println();return "";}
+        if (strarr.length == 0 || k > strarr.length) {
+            System.out.println();
+            return "";
+        }
         int maxLenght = 0;
         int maxIndex = 0;
-        for(int i=0;i<strarr.length;i++){
-            int length=0;
-            for(int j=i;j<i+k;j++){
-                if(i+k>strarr.length) break;
-                length+=strarr[j].length();
+        for (int i = 0; i < strarr.length; i++) {
+            int length = 0;
+            for (int j = i; j < i + k; j++) {
+                if (i + k > strarr.length) break;
+                length += strarr[j].length();
             }
-            if(length>maxLenght){
+            if (length > maxLenght) {
                 maxLenght = length;
                 maxIndex = i;
             }
         }
-        String result="";
-        for(int i=maxIndex;i<maxIndex+k;i++){
-            result=result+strarr[i];
+        String result = "";
+        for (int i = maxIndex; i < maxIndex + k; i++) {
+            result = result + strarr[i];
         }
         return result;
     }
