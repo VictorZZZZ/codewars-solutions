@@ -1,6 +1,6 @@
 package reverse.words;
 
-import kata.WordsReverse;
+import kata.words.reverse.WordsReverse;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

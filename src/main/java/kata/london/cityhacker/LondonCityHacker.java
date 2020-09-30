@@ -1,4 +1,4 @@
-package kata;
+package kata.london.cityhacker;
 
 import java.util.Locale;
 

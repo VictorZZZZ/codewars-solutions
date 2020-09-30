@@ -1,10 +1,7 @@
-package kata;
+package kata.mexican.wave;
 
-import com.sun.xml.internal.fastinfoset.util.CharArray;
 
 import java.util.Arrays;
-import java.util.function.IntUnaryOperator;
-import java.util.stream.Collectors;
 
 public class MexicanWave {
     public static String[] wave(String str) {
@@ -19,9 +16,5 @@ public class MexicanWave {
             result[result.length-1]=sb.toString();
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        MexicanWave.wave("two words");
     }
 }

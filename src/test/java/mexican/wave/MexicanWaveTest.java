@@ -1,6 +1,6 @@
 package mexican.wave;
 
-import kata.MexicanWave;
+import kata.mexican.wave.MexicanWave;
 import org.junit.Test;
 
 import java.util.Arrays;

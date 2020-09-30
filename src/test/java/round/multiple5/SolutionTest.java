@@ -1,6 +1,6 @@
 package round.multiple5;
 
-import kata.RoundToTheNextMultipleOf5;
+import kata.roundtonextmultiple5.RoundToTheNextMultipleOf5;
 import org.junit.Test;
 
 import java.util.Arrays;

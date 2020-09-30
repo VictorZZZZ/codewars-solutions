@@ -1,4 +1,4 @@
-package kata;
+package kata.average;
 
 import java.util.Arrays;
 

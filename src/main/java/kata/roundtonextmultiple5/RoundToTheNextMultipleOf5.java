@@ -1,4 +1,4 @@
-package kata;
+package kata.roundtonextmultiple5;
 
 public class RoundToTheNextMultipleOf5 {
     public static int roundToNext5(int number){

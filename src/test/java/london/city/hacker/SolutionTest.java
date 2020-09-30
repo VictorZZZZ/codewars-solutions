@@ -1,6 +1,6 @@
 package london.city.hacker;
 
-import kata.LondonCityHacker;
+import kata.london.cityhacker.LondonCityHacker;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

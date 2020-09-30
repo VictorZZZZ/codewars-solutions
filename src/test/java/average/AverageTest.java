@@ -1,6 +1,6 @@
 package average;
 
-import kata.AverageMean;
+import kata.average.AverageMean;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

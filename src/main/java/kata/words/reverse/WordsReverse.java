@@ -1,4 +1,4 @@
-package kata;
+package kata.words.reverse;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
